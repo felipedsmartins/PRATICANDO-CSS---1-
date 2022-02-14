@@ -1,0 +1,270 @@
+
+
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.conteudo1 {
+  background-color: white;
+  width: 550px;
+  height: 424.188px;
+  display: inline-block;
+  margin-top: 0px;
+  margin-left: 80px;
+}
+
+.conteudo2 {
+  background-color: white;
+  width: 337.250px;
+  height: 424.188px;
+  display: inline-block;
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+.conteudo3 {
+background-color: gray;
+margin-top: 60px;
+}
+
+
+.felipefoto{
+
+width: 337.250px;
+height: 424.188px;
+box-shadow: #F0F0F0 2px 2px 2px 2px;
+margin-left: 192px;
+margin-right: 70px;
+margin-top: 50px;
+float: left;
+
+}
+.felipefoto2 {
+  float: right;
+  margin-right: 310px;
+  margin-top: 50px;
+  width: 337.250px;
+  height: 424.188px;
+
+  }
+
+
+h1 {
+  color: white;
+  font-family: 'Open Sans Condensed';
+  font-size: 50px;
+  font-weight: normal;
+  letter-spacing: 8px;
+  padding-left: 190px;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+
+h3, .p5 {
+  font-family: 'Quicksand';
+  text-align: left;
+  font-size: 18px;
+  padding-left: 10px;
+}
+
+h4{
+
+  font-size: 20px;
+  margin-top: 50px;
+  font-family: "Quicksand";
+  font-weight: bold;
+  margin-left: 10px;
+
+}
+
+.h4p2 {
+  font-family: "Quicksand";
+  font-size: 20px;
+  margin-left: 10px;
+}
+
+h5 {
+  font-family: 'Quicksand';
+  font-weight: normal;
+  padding: 0 0 0 191px;
+  font-size: 15px;
+  letter-spacing: 2.5px;
+  margin-top: -10px;
+  margin-bottom: 0;
+  display: list-item;
+  color: white;
+}
+
+hr {
+  margin-top: 60px;
+}
+
+.hr2 {
+  margin-top: 15px;
+  margin-bottom: 0;
+
+}
+
+
+.li1 {
+  margin-right: 30px;
+  color: white;
+  font-family: 'Open Sans Condensed';
+  font-size: 20px;
+}
+
+.li1:hover {
+  cursor: pointer;
+  color: #EAF6D6;
+  opacity: 0.8;
+}
+
+.li2{
+
+  margin-right: 20px;
+  color: white;
+  font-family: 'Open Sans Condensed';
+  font-size: 20px;
+
+
+}
+
+.link1{
+text-decoration: none;
+color: white;
+
+}
+.musica{
+  font-family: 'Quicksand';
+  text-align: left;
+  font-size: 18px;
+  color: gray;
+
+}
+
+.musica2{
+
+  color: white;
+}
+
+
+nav {
+  background-color: #FDDB3A;
+  word-spacing: 5px;
+  height: 100px;
+  margin: 0;
+}
+
+.p1 {
+  color: black;
+}
+
+.p2 {
+  font-family: 'Quicksand';
+  text-align: justify;
+  font-size: 17px;
+  padding-left: 15px;
+  letter-spacing: normal;
+
+}
+
+.p5 {
+  font-family: 'Quicksand';
+  text-align: left;
+  font-size: 15px;
+  padding-left: 10px;
+}
+
+.profissao {
+  text-align: left;
+  position: absolute;
+  left: 102px;
+  top: 80px;
+  font-family: 'Quicksand';
+  color: white;
+}
+
+span {
+  text-decoration: underline;
+  }
+
+.ul1 {
+  position: relative;
+  bottom: 80px;
+  left: 645px;
+  list-style: none;
+  display: flex;
+  width: 100px;
+}
+
+.ul2{
+
+  list-style: none;
+  display: flex;
+  margin:0 0 10px 500px;
+}
+
+@media all and (max-width: 700px) {
+.felipefoto, .felipefoto2 {
+margin-left: 50px;
+margin-bottom: 0;
+}
+}
+@media all and (max-width: 700px) {
+h1, h5{
+padding-left: 50px;
+}
+
+}
+
+@media all and (max-width: 700px) {
+.conteudo1, .conteudo2  {
+margin-left: 50px;
+margin-top: 0;
+margin-bottom: 40px;
+width: auto;
+height: auto;
+}
+
+}
+
+@media all and (max-width: 700px) {
+hr {
+margin-top: 0;
+}
+
+}
+
+@media all and (max-width: 700px) {
+
+.felipefoto2 {
+margin-right:110px;
+margin-left: 10px;
+margin-top: 0;
+margin-bottom: 0;
+display: inline-block;
+}
+
+}
+
+
+@media all and (max-width: 700px) {
+
+.conteudo3 {
+display: inline-block;
+
+}
+
+}
+
+@media all and (max-width: 700px) {
+.ul2, {
+margin-left: 20px;
+padding-left: 20px;
+display: inline-block;
+
+}
+
+}
